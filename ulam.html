@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+  
+</head>
+<body background="Assets/Images/bg_kitchen.jpg">
+
+
+    <header>
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-auto">
+                    <img src="Assets/Images/gojo_logo.png" alt="Restaurant Logo" class="col-auto">
+                </div>
+                <div class="col">
+                    <h1>GOJO'S ULAM RECIPES</h1>
+                </div>
+                <div class="col-auto ml-auto">
+                    <nav>
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about"><i class="bi bi-info-circle"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#menu"><i class="bi bi-list"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact"><i class="bi bi-envelope"></i></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section id="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="Assets/Images/pochero.jpg" alt="Pochero" class="menu-image">
+                            <h5 class="card-title">Pochero</h5>
+                            <p class="card-text">This Filipino chicken stew contains meat and vegetables in a very flavorful sauce made with bananas and tomatoes. Serve with rice.</p>
+                            <a href="#" class="btn btn-primary recipe-link" data-recipe="pochero">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="Assets/Images/adobo.jpg" alt="Pork and Chicken Adobo" class="menu-image">
+                            <h5 class="card-title">Pork and Chicken Adobo</h5>
+                            <p class="card-text">This recipe is adapted from a famous Filipino restaurant in Manila, Philippines. The longer you marinate in the refrigerator, the better it gets! This is one dish that doesn't spoil right away. Best served hot over steamed rice.</p>
+                            <a href="#" class="btn btn-primary recipe-link" data-recipe="adobo">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="Assets/Images/caldereta.jpeg" alt="Caldereta" class="menu-image">
+                            <h5 class="card-title">Caldereta</h5>
+                            <p class="card-text">A Filipino beef stew traditionally cooked with goat, but it's usually not available in most markets. You can get creative with this dish such as adding garbanzo beans, peas, and raisins. Optional: add 4 ounces of liver pate in place of tomato paste. Serve hot over a bed of rice.</p>
+                            <a href="#" class="btn btn-primary recipe-link" data-recipe="caldereta">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="Assets/Images/giniling.jpg" alt="Filipino Beef Giniling" class="menu-image">
+                            <h5 class="card-title">Filipino Beef Giniling</h5>
+                            <p class="card-text">This Filipino beef giniling stew is one of my favorite comfort foods. My way of making it is pretty easy and doesn't take too long. Serve with white rice.</p>
+                            <a href="#" class="btn btn-primary recipe-link" data-recipe="giniling">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="Assets/Images/pinakbet.jpg" alt="Pinakbet" class="menu-image">
+                            <h5 class="card-title">Pinakbet</h5>
+                            <p class="card-text">Pinakbet is a vegetable-based dish from the Philippines that can be served as an everyday dish or when you have company. Since it also contains pork and prawns, you can eat it as a one-pot meal.</p>
+                            <a href="#" class="btn btn-primary recipe-link" data-recipe="pinakbet">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="Assets/Images/tinola.jpg" alt="Chicken Tinola" class="menu-image">
+                            <h5 class="card-title">Chicken Tinola</h5>
+                            <p class="card-text">Tinola is an easy, one-pot soup from the Philippines. Chicken, chayote squash (or papaya!), bok choy, and spinach are simmered with fresh ginger in a savory broth that's often served with white rice.</p>
+                            <a href="#" class="btn btn-primary recipe-link" data-recipe="tinola">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="recipe-info" id="recipe-info" style="display: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div id="recipe-details">
+                                
+                            </div>
+                            <button class="btn btn-secondary back-btn">Back to Menu</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="Assets/JS/script.js"></script>
+   
+</body>
+</html>
