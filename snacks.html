@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gojo's Snacks Recipes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+  
+</head>
+<body background="Assets/Images/bg_kitchen.jpg">
+
+
+    <header>
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-auto">
+                    <img src="Assets/Images/gojo_logo.png" alt="Restaurant Logo" class="col-auto">
+                </div>
+                <div class="col">
+                    <h1>GOJO'S SNACK RECIPES</h1>
+                </div>
+                <div class="col-auto ml-auto">
+                    <nav>
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about"><i class="bi bi-info-circle"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#menu"><i class="bi bi-list"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact"><i class="bi bi-envelope"></i></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section id="menu">
+        <div class="container4">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="Assets/Images/cassava_cake.webp" alt="Cassava Cake" class="menu-image">
+                            <h5 class="card-title">Cassava Cake</h5>
+                            <p class="card-text">This cassava cake is a Pinoy dessert best served cold. It is easy to make if you are looking for a Filipino dessert.</p>
+                            <a href="#" class="btn btn-primary recipe-link" data-recipe="cassava">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="Assets/Images/lumpia.jpg" alt="Filipino Lumpia" class="menu-image">
+                            <h5 class="card-title">Filipino Lumpia</h5>
+                            <p class="card-text">My stepmother is Filipino. I would watch her make these on special occasions. She never measured what she did, but I think I've got the knack of it. This is one of the best Filipino foods next to pancit.</p>
+                            <a href="#" class="btn btn-primary recipe-link" data-recipe="lumpia">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="Assets/Images/turon.jpg" alt="Turon" class="menu-image">
+                            <h5 class="card-title">Turon</h5>
+                            <p class="card-text">It is also called deep-fried banana rolls or banana lumpia. A typical Filipino meryenda and dessert, Turon has gained popularity throughout the years. This sweet snack can usually be seen on the streets being peddled along with bananacue or even vegetable lumpia.</p>
+                            <a href="#" class="btn btn-primary recipe-link" data-recipe="turon">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="Assets/Images/onion_rings.jpg" alt="Onion Rings" class="menu-image">
+                            <h5 class="card-title">Onion Rings</h5>
+                            <p class="card-text">Onion rings are sliced onions that are dipped in a batter, and deep fried until crisp. These are considered as a fast food favorite; it can also be a good replacement for French fries.</p>
+                            <a href="#" class="btn btn-primary recipe-link" data-recipe="onion_rings">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="Assets/Images/cheese_sticks.jpg" alt="Cheese Sticks" class="menu-image">
+                            <h5 class="card-title">Cheese Sticks</h5>
+                            <p class="card-text">Cheese sticks are deep-fried snacks composed of sliced cheeses wrapped in spring roll wrapper. This is totally different from the cheese sticks that they have here in North America wherein cheese (usually Mozzarella) is coated in a batter and deep-fried.</p>
+                            <a href="#" class="btn btn-primary recipe-link" data-recipe="cheese_sticks">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="Assets/Images/chicken_popcorn.jpg" alt="Chicken Popcorn" class="menu-image">
+                            <h5 class="card-title">Chicken Popcorn</h5>
+                            <p class="card-text">*Popcorn Chicken makes a good snack for your kids especially on school days right after school. The good news is this is so quick and easy to prepare – less than 30 minutes.</p>
+                            <a href="#" class="btn btn-primary recipe-link" data-recipe="popcorn">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="recipe-info" id="recipe-info" style="display: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div id="recipe-details">
+                                
+                            </div>
+                            <button class="btn btn-secondary back-btn">Back to Menu</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="Assets/JS/script.js"></script>
+   
+</body>
+</html>
