@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gojo's Pasta Recipes</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+  
+</head>
+<body background="Assets/Images/bg_kitchen.jpg">
+
+
+    <header>
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-auto">
+                    <img src="Assets/Images/gojo_logo.png" alt="Restaurant Logo" class="col-auto">
+                </div>
+                <div class="col">
+                    <h1>GOJO'S PASTA RECIPES</h1>
+                </div>
+                <div class="col-auto ml-auto">
+                    <nav>
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about"><i class="bi bi-info-circle"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#menu"><i class="bi bi-list"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact"><i class="bi bi-envelope"></i></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section id="menu">
+        <div class="container4">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="Assets/Images/pasta_bolognese.jpg" alt="Pasta Bolognese" class="menu-image">
+                            <h5 class="card-title">Pasta Bolognese</h5>
+                            <p class="card-text">Our Bolognese pasta features a traditional combination of ground beef, pork, veal, and tomato studded with salt-cured pancetta. It's tossed with penne rigate and served with freshly grated Parmesan cheese.</p>
+                            <a href="#" class="btn btn-primary recipe-link" data-recipe="pasta_bolognese">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            
+
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="Assets/Images/fettuccine_alfredo.jpeg" alt="Fettuccine Alfredo" class="menu-image">
+                            <h5 class="card-title">Fettuccine Alfredo</h5>
+                            <p class="card-text">This rich, creamy pasta gets a generous layer of garlicky, cheesy breadcrumbs to take it over the top.</p>
+                            <a href="#" class="btn btn-primary recipe-link" data-recipe="fettuccine_alfredo">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="Assets/Images/classic_meatspag.jpg" alt="Classic Spaghetti and Meatballs" class="menu-image">
+                            <h5 class="card-title">Classic Spaghetti and Meatballs</h5>
+                            <p class="card-text">Spaghetti and meatballs is a crowd-pleasing classic Italian-American dish. The mixture of beef, veal, and pork makes the meatballs really flavorful.</p>
+                            <a href="#" class="btn btn-primary recipe-link" data-recipe="classic">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="Assets/Images/mac_and_cheese.jpg" alt="Homemade Mac and Cheese" class="menu-image">
+                            <h5 class="card-title">Homemade Mac and Cheese</h5>
+                            <p class="card-text">This incredibly creamy and cheesy homemade mac and cheese is great on its own or as a jumping off point for your own creation.</p>
+                            <a href="#" class="btn btn-primary recipe-link" data-recipe="mac_cheese">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="Assets/Images/shrimp_eme.jpg" alt="Garlic Shrimp Bacon Alfredo" class="menu-image">
+                            <h5 class="card-title">Garlic Shrimp Bacon Alfredo</h5>
+                            <p class="card-text">This garlic bacon shrimp alfredo is the ultimate weeknight indulgence, with succulent shrimp, smoky bacon, and a rich, creamy sauce that will have your taste buds dancing with delight.</p>
+                            <a href="#" class="btn btn-primary recipe-link" data-recipe="bacon_alfredo">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="Assets/Images/chicken_lasagna.jpg" alt="Chicken Parm Lasagna" class="menu-image">
+                            <h5 class="card-title">Chicken Parm Lasagna</h5>
+                            <p class="card-text">A hybrid recipe that combines the flavors of classic Italian dishes, chicken Parmesan and lasagna, with layers of pasta, marinara sauce, chicken, and mozzarella cheese.</p>
+                            <a href="#" class="btn btn-primary recipe-link" data-recipe="parm_lasagna">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="recipe-info" id="recipe-info" style="display: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div id="recipe-details">
+                        
+                            </div>
+                            <button class="btn btn-secondary back-btn">Back to Menu</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="Assets/JS/script.js"></script>
+   
+</body>
+</html>
